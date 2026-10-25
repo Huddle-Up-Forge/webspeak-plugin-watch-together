@@ -1,0 +1,26 @@
+{
+  "name": "webspeak-plugin-watch-together",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/package.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run build && npm test && node scripts/check.mjs",
+    "metadata": "node scripts/metadata.mjs"
+  },
+  "webspeakPlugin": {
+    "packagePath": "packages/watch-together.wplugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huddle-Up-Forge/webspeak-plugin-watch-together.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Huddle-Up-Forge/webspeak-plugin-watch-together/issues"
+  }
+}

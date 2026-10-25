@@ -1,0 +1,19 @@
+{
+  "apiVersion": 2,
+  "id": "community.watch-together",
+  "name": "Watch Together / 视频同看",
+  "version": "2.0.0",
+  "author": "Huddle-Up-Forge",
+  "license": "AGPL-3.0-only",
+  "description": "Watch a video together with synchronized playback, seeking, speed and late joining.",
+  "scopes": [
+    "server",
+    "instance"
+  ],
+  "client": {
+    "entry": "client/index.html"
+  },
+  "server": {
+    "entry": "server/main.mjs"
+  }
+}
