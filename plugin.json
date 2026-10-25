@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "apiVersion": 2,
+    "id": "community.watch-together",
+    "name": "Watch Together / 视频同看",
+    "version": "2.0.0",
+    "author": "Huddle-Up-Forge",
+    "license": "AGPL-3.0-only",
+    "description": "Watch a video together with synchronized playback, seeking, speed and late joining.",
+    "scopes": [
+      "server",
+      "instance"
+    ],
+    "client": {
+      "entry": "client/index.html"
+    },
+    "server": {
+      "entry": "server/main.mjs"
+    }
+  },
+  "package": {
+    "ref": "1ce071cee32f7242f1f598c8d620cf59bcb680fa",
+    "path": "packages/watch-together.wplugin",
+    "sha256": "c28f295d6e98a3a0006a7869ab032828323150dd87c50d92e58cdcbc97d1cab3"
+  }
+}
